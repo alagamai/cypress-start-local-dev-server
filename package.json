@@ -1,0 +1,18 @@
+{
+	"name": "cypress-local-host",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "http-server cypress/e2e/html",
+		"cy:open": "sudo npx cypress open",
+		"cy:test": "sudo npx cypress run"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"cypress": "^12.13.0",
+		"http-server": "^14.1.1"
+	}
+}
